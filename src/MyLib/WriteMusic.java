@@ -6,7 +6,7 @@ import java.text.ParseException;
 public class WriteMusic{
     public WriteMusic() throws IOException, ParseException {
         new WriteCompositionName(); //название композиции
-        new WriteMusicGenre(); //название композиции
+        new WriteGenreName(); //название композиции
         new WriteAuthorName(); //имя автора
         new WriteCountry(); //страна
         new WriteYearOfRelease(); //год выпуска
